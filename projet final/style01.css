@@ -1,0 +1,223 @@
+
+.fond{
+    background-color: rgb(68, 83, 166);
+}
+.top {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #021a33;
+    color:white;
+    text-align: center;
+    padding:10px 0;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 10px;
+    
+}
+
+.button-menu {
+    
+    background-color: #0074D9;
+    color: white;
+    padding: 25px 25px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 40px 45px;
+    padding: 15px 40px;
+    
+    cursor: pointer;
+}
+
+.button-actif {
+    
+    background-color: #042949;
+    color: white;
+    padding: 25px 25px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 40px 45px;
+    padding: 15px 40px;
+    
+    cursor: pointer;
+}
+
+.button-menu:hover{
+    background-color: rgb(47, 8, 240);
+}
+
+
+
+body.UBS-page {
+    background-color: #181717;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial;     
+}
+
+.top-UBS {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(80, 80, 91);
+    justify-content: center; 
+}
+
+.photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.photo-container img{
+    width: 300px;
+    height: 220px;
+}
+
+.photo-container .titre{
+    background: black;
+    color: white;
+    width: 80%;
+    text-align: center;
+    padding: 10%;
+    opacity: 0;
+    font-size: 16px;
+}
+
+.photo-container:hover .titre{
+    opacity:1;
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color:navy;
+}
+
+
+
+.titre-up{
+    color:black;
+    text-align: center;
+}
+
+.button-style{
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #001f3f;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: None;
+    font-size:18px;
+    font-weight: bold;
+}
+.cont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-style{
+    display: flex;
+    width: 300px;
+    height:75px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #001f3f;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: None;
+    font-size:18px;
+    font-weight: bold;
+    
+}
+
+
+.compe-page{
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+
+.compe{
+    display:flex;
+    width: 600px;
+    height:350px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #001f3f;
+    color:white;
+    padding: 15px 32px;
+    text-decoration: None;
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.bande{
+    display: flex;
+    height:3px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(126, 126, 232);
+    justify-content: center; 
+    margin:20px;
+}
+
+.formations{
+
+
+
+
+    margin: 4px 2px;
+    cursor: pointer;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: None;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.licence{
+    background-color: rgb(91, 72, 72);
+
+    margin:10px;
+}
+
+.anee{
+    display:flex;
+    justify-content: center;
+}
+
+.form{
+    margin:15px;
+
+
+    background-color: #25384c;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: None;
+    font-size:18px;
+    font-weight: bold;
+}
